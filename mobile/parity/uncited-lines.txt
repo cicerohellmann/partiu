@@ -1,0 +1,81 @@
+# Uncited lines: source lines no ticket cites by a File:line citation.
+# Counted: non-blank, non-import lines (blank and import lines do not break a run; they are
+# skipped over). <style> blocks of .svelte files are left out (listed as style lines).
+# A range is listed when it holds 15+ consecutive uncited counted lines.
+# citations parsed: 544; sorted by uncited lines desc, then path.
+# file<TAB>uncited lines<TAB>of counted<TAB>style lines (not counted)<TAB>ranges (from-to:lines)
+frontend/src/components/TripExpenses.svelte	409	503	249	1-81:65, 94-123:27, 154-209:49, 216-239:24, 251-281:30, 338-355:18, 357-392:36, 394-408:15, 410-505:93, 534-548:15
+frontend/src/api/types.ts	405	528	0	98-151:50, 153-295:133, 334-579:221
+frontend/src/pages/TripDetailPage.svelte	338	1261	0	1-65:16, 73-122:44, 136-242:96, 351-391:38, 482-500:17, 503-538:32, 586-602:17, 1181-1210:28
+frontend/src/lib/utils.ts	277	857	0	92-113:20, 133-163:29, 175-189:15, 194-209:15, 601-618:17, 657-700:41, 781-844:60, 865-892:25, 910-932:23
+frontend/src/api/client.ts	276	503	0	130-144:15, 157-226:64, 406-520:104, 530-565:33, 579-613:29
+frontend/src/components/TripMap.svelte	223	268	62	24-54:27, 69-126:51, 184-311:118
+frontend/src/pages/StatsPage.svelte	203	283	304	94-176:77, 178-258:76, 287-306:18
+frontend/src/components/TripPeople.svelte	200	281	106	1-62:53, 102-124:21, 126-143:18, 197-289:90
+frontend/src/pages/UsersPage.svelte	148	222	72	1-65:47, 67-82:15, 118-143:25, 148-180:31
+frontend/src/pages/LoginPage.svelte	136	216	115	1-82:63, 84-119:33, 121-150:27
+frontend/src/components/PeoplePicker.svelte	120	181	89	1-32:29, 36-63:24, 125-153:28
+frontend/src/pages/EditFlightPage.svelte	110	259	0	1-109:93
+frontend/src/pages/NotificationsPage.svelte	106	121	86	34-76:35, 78-118:40, 122-140:18
+frontend/src/pages/SettingsPage.svelte	101	1729	129	1-76:53, 464-481:16
+frontend/src/pages/HistoryPage.svelte	98	140	11	47-83:33, 97-163:64
+frontend/src/pages/SetupPage.svelte	81	101	48	1-69:59, 92-115:22
+frontend/src/pages/TripsListPage.svelte	70	218	15	166-207:40, 225-250:26
+frontend/src/components/TrashPanel.svelte	64	97	15	1-24:17, 90-112:23
+frontend/src/components/ActivityPanel.svelte	57	58	8	1-62:51
+frontend/src/components/FlightRow.svelte	52	56	0	1-29:15, 38-61:24
+frontend/src/pages/WorldMapPage.svelte	51	86	110	1-21:15, 81-97:15
+frontend/src/App.svelte	50	115	0	124-145:22
+frontend/src/components/Icon.svelte	50	50	0	1-51:50
+frontend/src/lib/accentStore.ts	47	62	0	4-21:17, 54-76:19
+frontend/src/lib/notifications.ts	46	88	0	39-58:17
+frontend/src/components/SegmentRow.svelte	45	46	34	1-29:21, 31-54:24
+frontend/src/components/Checkbox.svelte	41	47	36	1-27:26
+frontend/src/components/ConfirmModal.svelte	37	37	29	1-39:37
+frontend/src/components/TripCard.svelte	35	252	0	241-261:21
+frontend/src/main.ts	33	33	0	3-43:33
+frontend/src/components/TopNav.svelte	32	56	19	1-23:16
+frontend/src/lib/imageRefresh.svelte.ts	32	32	0	1-36:32
+frontend/src/components/SideRail.svelte	30	39	19	29-47:18
+frontend/src/lib/i18n.ts	28	32	0	4-24:16
+frontend/src/lib/invitationStore.ts	24	34	0	5-28:22
+frontend/src/lib/themeStore.ts	24	24	0	3-32:24
+frontend/src/components/TabBar.svelte	22	22	29	1-29:22
+frontend/src/components/AnnouncementBanner.svelte	18	23	35	
+frontend/src/components/EmptyState.svelte	17	19	0	
+frontend/src/lib/apiCache.ts	17	30	0	1-17:17
+frontend/src/pages/AddTransportPage.svelte	17	425	45	451-470:17
+frontend/src/lib/nav.ts	16	26	0	1-18:16
+frontend/src/pages/EditTripPage.svelte	16	277	7	301-319:16
+frontend/src/components/ConnectionBadge.svelte	15	15	0	1-21:15
+frontend/src/components/DateDivider.svelte	15	15	0	1-20:15
+frontend/src/components/LegDivider.svelte	15	20	0	
+frontend/src/components/StayRow.svelte	15	58	50	53-67:15
+frontend/src/components/SyncStatusBar.svelte	14	55	0	
+frontend/src/lib/toastStore.ts	14	14	0	
+frontend/src/lib/tripImageStore.ts	13	13	0	
+frontend/src/components/ImmichAlbumButton.svelte	11	77	11	
+frontend/src/components/TripCarRentals.svelte	11	329	62	
+frontend/src/components/FormSection.svelte	10	11	0	
+frontend/src/components/LoadingScreen.svelte	10	11	0	
+frontend/src/lib/currencies.ts	10	17	0	
+frontend/src/lib/onlineStore.ts	10	10	0	
+frontend/src/components/ToastContainer.svelte	9	9	0	
+frontend/src/components/OfflineBanner.svelte	8	8	22	
+frontend/src/components/CarRentalRow.svelte	7	50	54	
+frontend/src/components/TripBudget.svelte	5	279	123	
+frontend/src/lib/authStore.ts	5	5	0	
+frontend/src/components/MonthlyChart.svelte	1	79	28	
+frontend/src/components/AirportCombobox.svelte	0	113	51	
+frontend/src/components/PlaceInput.svelte	0	202	77	
+frontend/src/components/TripDayCard.svelte	0	383	205	
+frontend/src/components/TripDayPlanner.svelte	0	142	12	
+frontend/src/components/TripPackingList.svelte	0	185	101	
+frontend/src/components/TripStays.svelte	0	379	68	
+frontend/src/components/TripTransport.svelte	0	277	53	
+frontend/src/pages/AddTripPage.svelte	0	128	0	
+frontend/src/pages/FlightDetailPage.svelte	0	677	0	
+frontend/src/pages/InvitationsPage.svelte	0	56	0	
+
+# citations past the end of their file (stale line numbers):
+#   none

@@ -1,0 +1,18 @@
+# Web tests (frontend/src/**/*.test.ts) that no ticket's '## Tests' bullet covers, one per line: key<TAB>reason.
+# key is `<test file>::<describe path> > <title>` (or `<file>::<title>` outside a describe);
+# `<test file>::*` also waives the "Web tests mirrored:" line for that whole file.
+# Used by check.py --report (and later by the normal check). Example:
+# frontend/src/lib/nav.test.ts::NAV_ITEMS > has a unique href per entry	covered by the shared shell test in T-006
+frontend/src/lib/utils.test.ts::escapeHtml > escapes angle brackets	Web-only HTML escaping for the web's string-built markup; native has no HTML and T-008 drops escapeHtml
+frontend/src/lib/utils.test.ts::escapeHtml > escapes ampersands	Web-only HTML escaping for the web's string-built markup; native has no HTML and T-008 drops escapeHtml
+frontend/src/lib/utils.test.ts::escapeHtml > escapes double quotes	Web-only HTML escaping for the web's string-built markup; native has no HTML and T-008 drops escapeHtml
+frontend/src/lib/utils.test.ts::escapeHtml > returns empty string for null	Web-only HTML escaping for the web's string-built markup; native has no HTML and T-008 drops escapeHtml
+frontend/src/lib/utils.test.ts::escapeHtml > coerces numbers	Web-only HTML escaping for the web's string-built markup; native has no HTML and T-008 drops escapeHtml
+frontend/src/components/SyncStatusBar.test.ts::SyncStatusBar > applies id prop to the wrapper div	Checks the web component forwards an HTML id attribute (the list page sets #sync-status-bar for DOM lookup only); a native bar has no DOM id and nothing a user sees or the server receives.
+frontend/src/components/SyncStatusBar.test.ts::SyncStatusBar > applies style prop to the wrapper div	Checks the web component forwards an inline CSS style string (margin-bottom); pure web layout plumbing, a native bar has no inline style prop.
+frontend/src/components/ImmichAlbumButton.test.ts::ImmichAlbumButton > forwards style prop to the button	Only checks that a layout prop (inline CSS width) is passed to the button element; a Svelte prop-forwarding detail with no user-visible text, request or navigation.
+frontend/src/lib/notifications.test.ts::isSupported > returns false when serviceWorker not in navigator	Only checks that isSupported() returns a boolean (typeof); no behaviour to mirror natively.
+frontend/src/lib/notifications.test.ts::notifications module exports > exports isSupported, subscribe, unsubscribe, getStatus	Only checks that four JS functions are exported from a web module.
+frontend/src/lib/notifications.test.ts::notifications module exports > isSupported returns false in test environment (no full push APIs)	Only checks the return type is boolean; the value depends on the jsdom environment.
+frontend/src/components/FormSection.test.ts::FormSection > wraps content in a section.form-section element	Only asserts the web DOM element and CSS class name; the observable behaviour (a grouped block holding the fields) is already covered by the other FormSection tests.
+frontend/src/components/SideRail.test.ts::TabBar > carries the shared .nav-item hook used to address either surface	Asserts only a CSS class name used by web test selectors; the visible behaviour (the dock shows the five entries) is covered by the other TabBar test.

@@ -1,0 +1,26 @@
+parity report r3 (REPORT mode; nothing here fails the normal check)
+enforcing: True
+
+== web-tests: 587 tests in 42 files (102 describes), 0 uncovered; 0 files lack 'Web tests mirrored:', 0 titles match no Tests bullet
+-- files without a 'Web tests mirrored:' line (file  owners)
+-- titles matching no Tests bullet (file:line  describe > title  owners)
+
+== storage: 14 items, 0 uncovered
+
+== dialogs: 29 items, 0 uncovered
+
+== timers: 18 items, 0 uncovered
+
+== keys: 29 items, 0 uncovered
+
+== citations: 544 parsed, 4400 uncited lines in 72 files, 0 past end of file (full list: mobile/parity/uncited-lines.txt)
+  frontend/src/components/TripExpenses.svelte  uncited 409 of 503
+  frontend/src/api/types.ts  uncited 405 of 528
+  frontend/src/pages/TripDetailPage.svelte  uncited 338 of 1261
+  frontend/src/lib/utils.ts  uncited 277 of 857
+  frontend/src/api/client.ts  uncited 276 of 503
+  frontend/src/components/TripMap.svelte  uncited 223 of 268
+  frontend/src/pages/StatsPage.svelte  uncited 203 of 283
+  frontend/src/components/TripPeople.svelte  uncited 200 of 281
+  frontend/src/pages/UsersPage.svelte  uncited 148 of 222
+  frontend/src/pages/LoginPage.svelte  uncited 136 of 216

@@ -1,0 +1,20 @@
+# Web locale keys the web app never shows, one per line: key<TAB>reason.
+# check.py fails if a key here is used by the web app or left out of en.json.
+add_flight.save	no usage in frontend/ or backend/ (add page uses add_transport.save)
+add_transport.more_details	no usage in frontend/ or backend/
+add_trip.destination	no usage in frontend/ or backend/
+edit_trip.image_hint	no usage in frontend/ or backend/
+notifications.body_new_flight	no usage in frontend/ or backend/
+notifications.type_new_flight	no usage in frontend/ or backend/ (inbox shows server-sent title; icon only by type)
+planner.day_prefix	no usage in frontend/ or backend/
+planner.no_days	no usage in frontend/ or backend/
+segments.add	no usage in frontend/ or backend/
+settings.full_sync_ok	no usage in frontend/ or backend/
+settings.max_emails	no usage in frontend/ or backend/ (no max-emails field on the page)
+settings.max_emails_hint	no usage in frontend/ or backend/
+settings.next_sync	no usage in frontend/ or backend/ (SyncStatusBar uses sync.next_sync instead)
+trip.add_flight	no usage in frontend/ or backend/
+trips.eml_uploading	no usage in frontend/ or backend/ (button shows spinner)
+trips.next_sync	no usage in frontend/ or backend/ (sync.next_sync is used instead)
+trips.next_sync_at	no usage in frontend/ or backend/ (sync.next_at is used instead)
+trips.sync_running	no usage in frontend/ or backend/ (sync.running is used instead)
